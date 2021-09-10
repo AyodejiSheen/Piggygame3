@@ -1,0 +1,115 @@
+body{
+    background-image: url('bg-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .game-container{
+    margin-top: 150px;
+} */
+
+/* .player-one-section{
+    box-shadow: 5px 5px 10px black;
+} */
+
+/* .player-two-section{
+    box-shadow: 5px 5px 10px black;
+} */
+
+.new-game{
+    position: absolute;
+    z-index: 100;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.new-game:hover{
+    background-color: white;
+    box-shadow: 5px 5px 8px rgb(173, 173, 180);
+}
+
+.fa-plus-circle{
+    color: rgb(114, 201, 15);
+}
+
+.fa-circle{
+    font-size: 12px;
+    color: rgb(114, 201, 15);
+}
+
+.player-1, .player-0{
+    font-size: 36px;
+    letter-spacing: 1.6px;
+    margin-top: 100px;
+}
+
+
+.score-0, .score-1  {
+    font-size: 70px;
+    font-weight: 100;
+    color: rgb(114, 201, 15);
+}
+
+.main-score-1, .main-score-2{
+    background-color:rgb(114, 201, 15);
+    padding: 4px 0% 4px 0%;
+    margin: 100px 29% 100px 29%;
+    color: white;
+    font-size: 30px;
+    box-shadow: 5px 5px 8px  rgb(18, 105, 37);
+}
+
+
+.roll-hold{
+    position: absolute;
+    z-index: 300;
+    margin-top: 390px;
+}
+
+
+.roll-hold .roll-dice{
+    font-size: 22px;
+}
+
+.roll-hold .hold-dice{
+    font-size: 22px;
+}
+
+.hold-dice:hover{
+    background-color: white;
+    box-shadow: 5px 5px 8px rgb(128, 128, 134);
+}
+
+.roll-dice:hover{
+    background-color: white;
+    box-shadow: 5px 5px 8px  rgb(128, 128, 134);
+}
+
+.fa-cloud-upload-alt, .fa-spinner{
+    color:rgb(114, 201, 15);
+}
+
+
+
+.dice{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: 200;
+    background-color: secondary;
+    margin-top: 220px;
+    margin-left: 40px;
+    color: rgb(114, 201, 15);
+}
+
+
+.dice-2{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    z-index: 200;
+    background-color: secondary;
+    margin-top: 220px;
+    margin-left: -40px;
+    color: rgb(114, 201, 15);
+}

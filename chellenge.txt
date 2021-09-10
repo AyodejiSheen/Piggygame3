@@ -1,0 +1,1 @@
+double the dice and the current player looses is score when a dice is one
